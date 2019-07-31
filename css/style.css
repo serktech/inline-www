@@ -176,15 +176,15 @@ p {
 }
 
 /* Section: Who We Are */
-#who {
+#how {
     display: flex;
 }
 
-#who div {
+#how div {
     flex: 1;
 }
 
-#who .who-img {
+#how .who-img {
     background: url('../img/frontpage.jpg') no-repeat center center/cover;
 }
 
