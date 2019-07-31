@@ -184,8 +184,8 @@ p {
     flex: 1;
 }
 
-#how .who-img {
-    background: url('../img/showcase.jpg') no-repeat center center/cover;
+#how .how-img {
+    background: url('../img/frontpage.jpg') no-repeat center center/cover;
 }
 
 /* Section: Clients */
