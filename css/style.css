@@ -37,11 +37,11 @@ p {
 
 .bg-light {
     background: #f4f4f4;
-    color: #222831;
+    color: #1b273d;
 }
 
 .bg-dark {
-    background: #222831;
+    background: #1b273d;
     color: #fff;
 }
 
@@ -89,7 +89,8 @@ p {
 }
 
 .btn-dark {
-    background: #333;
+    background: #1b273d;
+    /*background: #222831;*/
     color: #fff;
 }
 
@@ -108,7 +109,7 @@ p {
     display: flex;
     position: sticky;
     top:0;
-    background: #222831;
+    background: #1b273d;
     color: #fff;
     justify-content: space-between;
     z-index: 1;
