@@ -151,6 +151,7 @@ p {
 
 /* Showcase */
 #showcase {
+    position: relative;
     background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
@@ -165,8 +166,8 @@ p {
     height: 100%;
     padding: 0 2rem;
     /* Overlay */
-    position: absolute;
-    top: 65px;
+    position: relative;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -192,7 +193,7 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Section: Who We Are */
+/* Section: how We Are */
 #how {
     display: flex;
 }
@@ -216,6 +217,19 @@ p {
     width: 60%;
 }
 
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
 /* Section: Contact */
 #contact {
     display: flex;
@@ -237,4 +251,108 @@ p {
 #contact .contact-form textarea {
     width: 100%;
     padding: 0.5rem;
+}
+
+/* Mobile size */
+
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content {
+        top: 0;
+    }
+
+    #how {
+        display: block;
+    }
+
+    #how .how-img {
+        display: none;
+    }
+
+    #clients .items img {
+        width: 80%;
+    }
+
+    #clients .items div:last-child {
+        display: none;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact .map {
+        height: 200px;
+        border-top: 4px solid #333;
+    }
+    .l-heading {
+        font-size: 2rem;
+    }
+}
+
+@media(max-height: 568px) {
+    #showcase .showcase-content {
+        margin-top: -2rem;
+        top: 110px;
+    }
+
+    .l-heading {
+        font-size: 2.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+
+/* Widescreen */
+
+/* Align icon to left */
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+#contact .map {
+    flex: 2;
 }
