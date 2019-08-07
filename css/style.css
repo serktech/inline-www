@@ -220,20 +220,6 @@ p {
     opacity: 0.4;
 }
 
-.mapouter {
-    position: relative;
-    text-align: center;
-    display: flex;
-    flex: 1;
-
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-
-
-}
 
 
 /* Section: Contact */
@@ -258,6 +244,31 @@ p {
     width: 100%;
     padding: 0.5rem;
 }
+
+.map {
+    /*display: block;*/
+    height: 100%;
+    width: 100%;
+}
+.map iframe {
+    height: 100%;
+    width: 100%;
+
+}
+
+/*.mapouter {*/
+/*    position: relative;*/
+/*    text-align: center;*/
+/*   */
+
+/*}*/
+
+/*.gmap_canvas {*/
+/*    overflow: hidden;*/
+/*    background: none !important;*/
+/*}*/
+
+
 
 /* Mobile size */
 
