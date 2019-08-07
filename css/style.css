@@ -217,6 +217,7 @@ p {
     display: block;
     margin: auto;
     width: 60%;
+    opacity: 0.4;
 }
 
 .mapouter {
@@ -225,15 +226,13 @@ p {
     display: flex;
     flex: 1;
 
-
-
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
 
-   
+
 }
 
 
@@ -355,5 +354,5 @@ p {
 }
 
 .gmap_canvas {
-    flex: 1;
+    flex: 2;
 }
