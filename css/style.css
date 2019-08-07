@@ -166,7 +166,7 @@ p {
     height: 100%;
     padding: 0 2rem;
     /* Overlay */
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -338,7 +338,7 @@ p {
 @media(max-height: 568px) {
     #showcase .showcase-content {
         margin-top: -2rem;
-        top: 110px;
+        top: 0;
     }
 
     .l-heading {
@@ -366,6 +366,3 @@ p {
     margin-bottom: 0;
 }
 
-.gmap_canvas {
-    flex: 2;
-}
