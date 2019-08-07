@@ -209,6 +209,8 @@ p {
 /* Section: Clients */
 #clients .items {
     display: flex;
+    justify-content: center;
+
 }
 
 #clients .items img {
@@ -219,17 +221,22 @@ p {
 
 .mapouter {
     position: relative;
-    text-align: right;
-    height: 500px;
-    width: 600px;
+    text-align: center;
+    display: flex;
+    flex: 1;
+
+
+
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 500px;
-    width: 600px;
+
+   
 }
+
+
 /* Section: Contact */
 #contact {
     display: flex;
@@ -305,18 +312,12 @@ p {
         width: 80%;
     }
 
-    #clients .items div:last-child {
-        display: none;
-    }
 
     #contact {
         flex-direction: column;
     }
 
-    #contact .map {
-        height: 200px;
-        border-top: 4px solid #333;
-    }
+
     .l-heading {
         font-size: 2rem;
     }
@@ -353,6 +354,6 @@ p {
     margin-bottom: 0;
 }
 
-#contact .map {
-    flex: 2;
+.gmap_canvas {
+    flex: 1;
 }
