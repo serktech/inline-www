@@ -166,7 +166,7 @@ p {
     height: 100%;
     padding: 0 2rem;
     /* Overlay */
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -200,6 +200,7 @@ p {
 
 #how div {
     flex: 1;
+    flex-basis: 50%;
 }
 
 #how .how-img {
@@ -229,6 +230,7 @@ p {
 
 #contact .map, #contact .contact-form {
     flex: 1;
+    flex-basis: 50%;
 }
 
 #contact .contact-form .form-group {
@@ -246,7 +248,7 @@ p {
 }
 
 .map {
-    /*display: block;*/
+    display: inline-block;
     height: 100%;
     width: 100%;
 }
@@ -307,7 +309,7 @@ p {
     }
 
     #showcase .showcase-content {
-        top: 0;
+        top: 110px;
     }
 
     #how {
