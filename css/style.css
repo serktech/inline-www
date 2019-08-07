@@ -123,7 +123,7 @@ p {
 /* Navbar */
 #navbar {
     display: flex;
-    position: absolute;
+    position: sticky;
     top: 0;
     background: #1b273d;
     color: #fff;
